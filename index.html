@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Faro - Noticias</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <header>
+        <div style="text-align: center;">
+            <img src="noticias/logoelfaro.jpg" alt="Logo El Faro" width="150">
+        </div>
+        <h1 style="text-align: center;">Diario "El Faro"</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="deportes.html">Deportes</a></li>
+                <li><a href="negocios.html">Negocios</a></li>
+            </ul>
+        </nav>
+    </header>
+
+</body>
+</html>
+
+        <h2>Últimas Noticias</h2>
+
+<table border="1">
+    <thead>
+        <tr>
+            <th>Titulo</th>
+            <th>Categoria</th>
+            <th></th>
+            <th>Texto del articulo</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Avances en la Inteligencia Artificial</td>
+            <td>Tecnologia</td>
+            <td><img src="noticias/imagenia.jpg" alt="Noticia IA" width="100"></td>
+            <td>En los últimos años, el desarrollo de modelos de lenguaje avanzados, como los basados en redes neuronales profundas, ha permitido mejorar la eficiencia en áreas como la medicina, la educación y las finanzas. Empresas líderes en tecnología han implementado soluciones impulsadas por IA para mejorar la toma de decisiones, reducir costos operativos y ofrecer experiencias personalizadas a los usuarios.</td>
+        </tr>
+        <tr>
+            <td>El Clima Extremo en el Mundo</td>
+            <td>Clima</td>
+            <td><img src="noticias/imagenclima.png" alt="Noticia Clima" width="100"></td>
+            <td>Fenómenos meteorológicos extremos afectan diversas regiones, Incendios forestales han arrasado grandes extensiones de bosques, afectando la biodiversidad y obligando a comunidades enteras a abandonar sus hogares. En Brasil y Chile, la sequía prolongada ha contribuido a la propagación del fuego.</td>
+        </tr>
+        <tr>
+            <td>Nuevas Tendencias en Negocios</td>
+            <td>Negocios</td>
+            <td><img src="noticias/imagennegocio.png" alt="Noticia Negocios" width="100"></td>
+            <td>Las empresas están adoptando nuevas estrategias para crecer, En un mundo cada vez más competitivo y digitalizado, las empresas han tenido que reinventarse para mantenerse a la vanguardia. La transformación digital, la sostenibilidad y la personalización de productos y servicios se han convertido en pilares clave para el crecimiento empresarial.</td>
+        </tr>
+    </tbody>
+</table>
+
+        <article>
+            <h3>Avances en la Inteligencia Artificial: Revolucionando la Industria</h3>
+            <p>Las nuevas tecnologías de Inteligencia Artificial (IA) están transformando rápidamente diversos sectores, desde la automatización de procesos industriales hasta la optimización de la atención al cliente.
+                En los últimos años, el desarrollo de modelos de lenguaje avanzados, como los basados en redes neuronales profundas, ha permitido mejorar la eficiencia en áreas como la medicina, la educación y las finanzas. Empresas líderes en tecnología han implementado soluciones impulsadas por IA para mejorar la toma de decisiones, reducir costos operativos y ofrecer experiencias personalizadas a los usuarios.</p>
+                <script>
+                    document.addEventListener("DOMContentLoaded", function() {
+                        const video = document.getElementById("miVideo");
+                        const muteButton = document.getElementById("muteButton");
+            
+                        muteButton.addEventListener("click", function() {
+                            if (video.muted) {
+                                video.muted = false;
+                                muteButton.textContent = "🔊 Activar Sonido";
+                            } else {
+                                video.muted = true;
+                                muteButton.textContent = "🔇 Silenciar";
+                            }
+                        });
+                    });
+                </script>
+    <header>
+        <h1>"El Faro"</h1>
+        <video id="miVideo" width="800" autoplay loop muted>
+            <source src="media/Video1.mp4" type="video/mp4">
+        </video>
+        <br>
+        <button id="muteButton">🔇 Silenciar</button>
+    </header>
+        </article>
+
+        <article>
+            <h3>Fenómenos Meteorológicos Extremos Afectan Diversas Regiones</h3>
+            <img src="noticias/imagenclima2.jpeg" alt="Noticia Clima">
+            <p>Impacto en Distintas Regiones
+                 Estados Unidos y el Caribe: La temporada de huracanes ha sido más activa de lo habitual, con tormentas de categoría 4 y 5 causando destrucción en zonas costeras. Miles de personas han sido evacuadas y se reportan pérdidas millonarias en infraestructura.
+                 América del Sur y Australia: Incendios forestales han arrasado grandes extensiones de bosques, afectando la biodiversidad y obligando a comunidades enteras a abandonar sus hogares. En Brasil y Chile, la sequía prolongada ha contribuido a la propagación del fuego.        
+                 Europa y Asia: Inundaciones sin precedentes han afectado países como Alemania, India y China, donde ríos desbordados han causado daños masivos y han dejado a miles de personas sin hogar.                
+                 Olas de calor en diversas partes del mundo: Temperaturas récord han sido registradas en varias ciudades, provocando problemas de salud pública y sobrecarga en los sistemas eléctricos debido al uso excesivo de aire acondicionado.</p>
+        </article>
+        <article>
+            <h3>Las Empresas Están Adoptando Nuevas Estrategias para Crecer en un Entorno Cambiante</h3>
+            <img src="noticias/imagennegocio2.png" alt="Noticia Clima">
+            <p>ITendencias que Están Impulsando el Crecimiento Empresarial
+                Transformación Digital:
+                Las empresas están invirtiendo en inteligencia artificial, automatización y análisis de datos para mejorar la eficiencia operativa. Desde la implementación de chatbots en el servicio al cliente hasta el uso de algoritmos avanzados para la toma de decisiones, la digitalización se ha vuelto una necesidad.
+                Sostenibilidad y Responsabilidad Social:
+                Los consumidores exigen cada vez más productos y servicios sostenibles. Empresas de todos los sectores han adoptado estrategias ecológicas, como el uso de energías renovables, reducción de plásticos y procesos de producción más responsables con el medio ambiente.               
+                Expansión a Nuevos Mercados:
+                Muchas compañías han diversificado sus operaciones, buscando oportunidades en mercados emergentes y explorando modelos de negocio como la suscripción o el comercio electrónico. El crecimiento del e-commerce ha permitido que pequeñas y medianas empresas lleguen a una audiencia global sin necesidad de grandes inversiones en infraestructura física.</p>
+        </article>
+        <div style="text-align: center;">
+            <img src="noticias/logoelfaro.jpg" alt="Logo El Faro" width="150">
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 El Faro - Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
